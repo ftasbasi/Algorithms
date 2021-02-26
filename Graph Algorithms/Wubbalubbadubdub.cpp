@@ -30,7 +30,7 @@ int minDistance(int dist[], bool sptSet[],int n)
 
 
 
-void Wubbalubbadubdub(int**& times, int**& costs, int n, int src, int dest, vector<pair<int,int>>& goodies, vector<int>& cost_path) {
+void SingleSourceShortestPath(int**& times, int**& costs, int n, int src, int dest, vector<pair<int,int>>& goodies, vector<int>& cost_path) {
 
     int parent[n];//array to store constructed shortest path
 
@@ -279,18 +279,18 @@ int main(){
         }
     }
 /*
-    Wubbalubbadubdub(timesOUT1,costOUT1,n1,srcOUT1,destOUT1,goodiesOUT1,cost_pathOUT1);
+    SingleSourceShortestPath(timesOUT1,costOUT1,n1,srcOUT1,destOUT1,goodiesOUT1,cost_pathOUT1);
     for (int i = 0; i < (int)cost_pathOUT1.size(); ++i) {
         cout<<cost_pathOUT1.at(i)<<" ";
     }
 
 
-    Wubbalubbadubdub(timesOUT2,costOUT2,n2,srcOUT2,destOUT2,goodiesOUT2,cost_pathOUT2);
+    SingleSourceShortestPath(timesOUT2,costOUT2,n2,srcOUT2,destOUT2,goodiesOUT2,cost_pathOUT2);
     for (int i = 0; i < (int)cost_pathOUT2.size(); ++i) {
         cout<<cost_pathOUT2.at(i)<<" ";
     }
 
-    Wubbalubbadubdub(timesOUT3,costOUT3,n3,srcOUT3,destOUT3,goodiesOUT3,cost_pathOUT3);
+    SingleSourceShortestPath(timesOUT3,costOUT3,n3,srcOUT3,destOUT3,goodiesOUT3,cost_pathOUT3);
         for (int i = 0; i < (int)cost_pathOUT3.size(); ++i) {
         cout<<cost_pathOUT3.at(i)<<" ";
     }
@@ -301,18 +301,18 @@ int main(){
 */
 
 
-    Wubbalubbadubdub(timesOUT1,costOUT1,n1,srcOUT1,destOUT1,goodiesOUT1,cost_pathOUT1);
+    SingleSourceShortestPath(timesOUT1,costOUT1,n1,srcOUT1,destOUT1,goodiesOUT1,cost_pathOUT1);
     for (int i = 0; i < (int)cost_pathOUT1.size(); ++i) {
         cout<<cost_pathOUT1.at(i)<<" ";
     }
 
     cout<<endl;
-    Wubbalubbadubdub(timesOUT2,costOUT2,n2,srcOUT2,destOUT2,goodiesOUT2,cost_pathOUT2);
+    SingleSourceShortestPath(timesOUT2,costOUT2,n2,srcOUT2,destOUT2,goodiesOUT2,cost_pathOUT2);
     for (int i = 0; i < (int)cost_pathOUT2.size(); ++i) {
         cout<<cost_pathOUT2.at(i)<<" ";
     }
     cout<<endl;
-    Wubbalubbadubdub(timesOUT3,costOUT3,n3,srcOUT3,destOUT3,goodiesOUT3,cost_pathOUT3);
+    SingleSourceShortestPath(timesOUT3,costOUT3,n3,srcOUT3,destOUT3,goodiesOUT3,cost_pathOUT3);
     for (int i = 0; i < (int)cost_pathOUT3.size(); ++i) {
         cout<<cost_pathOUT3.at(i)<<" ";
     }
